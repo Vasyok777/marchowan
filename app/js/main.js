@@ -6,5 +6,14 @@ $(function(){
       fade: true,
       autoplay: true,
       autoplaySpeed: 2000 
-   })
+   });
+
+   $('.star').rateYo({
+      rating: 4,
+      starWidth: '17px',
+      normalFill: '#cccccc',
+      ratedFill: '#ffc35b',
+      readOnly: true
+   });
+
 });
